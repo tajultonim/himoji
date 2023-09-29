@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Himoji",
+    "description": "Enable premium features for Hilokal.",
+    "version": "1.0",
+    "author": "TajulTonim",
+    "icons": {
+        "16": "images/icon128.png",
+        "32": "images/icon128.png",
+        "48": "images/icon128.png",
+        "128": "images/icon128.png"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+
+    "content_scripts": [{
+        "js": ["scripts/content.js"],
+        "matches": [
+            "https://www.hilokal.com/*"
+        ]
+    }],
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+
+}
