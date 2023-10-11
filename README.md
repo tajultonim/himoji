@@ -3,6 +3,7 @@ This is an unpacked chrome extention.
 - Premium emoji
 - Unlimited beans
 - Custom emoji as you want
+- Break table
 ## Installation:
 - Download this code file
 - Open google chrome and navigate to `Settings icon` > `Extensions` > `Manage Extensions`
